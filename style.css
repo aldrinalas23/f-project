@@ -571,36 +571,5 @@ header .navbar {
     }
 }
 
-@media (max-width: 900px) and (hover: hover) and (pointer: fine) {
-    .product-section .product-list {
-        gap: 40px;
-        justify-content: space-between;
-    }
-
-    .product-section .product-list .product-item {
-        width: calc(100% / 3 - 40px);
-    }
-
-    .footer-section .section-content {
-        flex-direction: row;
-    }
-
-    .about-section .section-content {
-        flex-direction: row;
-    }
-
-    .about-section .about-details {
-        max-width: 50%;
-    }
-
-    .about-section .about-image-wrapper .about-image {
-        margin-top: 0;
-        max-width: 350px;
-    }
-
-    .contact-section .section-content {
-        flex-direction: row;
-    }
-}
 
 
