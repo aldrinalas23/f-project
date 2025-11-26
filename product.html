@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header/Navbar -->
+    <header>
+        <nav class="navbar section-content">
+            <a href="#" class="nav-logo">
+                <img src="imgs/logo.png" alt="Alpha-Cored Logo" class="logo-img">
+            </a>
+
+
+            <input type="checkbox" id="menu-toggle" />
+
+            <!-- Labels act as buttons -->
+            <label for="menu-toggle" class="menu-open-btn fas fa-bars"></label>
+
+            <ul class="nav-menu">
+                <label for="menu-toggle" class="menu-close-btn fas fa-times"></label>
+
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="product.html" class="nav-link active">Product</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Product Section -->
+        <section id="product" class="product-section">
+            <h2 class="section-title">PRODUCT</h2>
+
+            <div class="product-search">
+                <input type="text" class="search-input" placeholder="Search product...">
+
+                <select class="filter-dropdown">
+                    <option value="">Category</option>
+                    <option value="watch">Watch</option>
+                    <option value="keyboard">Keyboard</option>
+                    <option value="ssd">SSD</option>
+                    <option value="computer">Computer Case</option>
+                    <option value="monitor">Monitor</option>
+                    <option value="headset">Headset</option>
+                </select>
+            </div>
+
+            <div class="section-content">
+                <ul class="product-list">
+                    <li class="product-item">
+                        <img src="imgs/1.png" alt="Keyboard" class="product-image">
+                        <h3 class="name">Keyboard</h3>
+                    </li>
+                    <li class="product-item">
+                        <img src="imgs/2.png" alt="Watch" class="product-image">
+                        <h3 class="name">Watch</h3>
+                    </li>
+                    <li class="product-item">
+                        <img src="imgs/3.png" alt="SSD" class="product-image">
+                        <h3 class="name">SSD</h3>
+                    </li>
+                    <li class="product-item">
+                        <img src="imgs/4.png" alt="Computer" class="product-image">
+                        <h3 class="name">Computer Case</h3>
+                    </li>
+                    <li class="product-item">
+                        <img src="imgs/5.png" alt="Monitor" class="product-image">
+                        <h3 class="name">Monitor</h3>
+                    </li>
+                    <li class="product-item">
+                        <img src="imgs/6.png" alt="Headset" class="product-image">
+                        <h3 class="name">Headset</h3>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Footer Section -->
+        <section class="footer-section">
+            <div class="section-content">
+                <p class="copyright-text">© Alpha-Cored Technology</p>
+
+                <div class="social-link-list">
+                    <a href="https://www.facebook.com/ACTSincorporated" target="_blank" class="social-link"> <i
+                            class="fa-brands fa-facebook"></i></a>
+                </div>
+
+                <p class="policy-text">
+                    <a href="#" class="policy-link">Privacy policy</a>
+                    <span class="separator">•</span>
+                    <a href="#" class="policy-link">Refund policy</a>
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
