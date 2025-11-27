@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+body {
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -387,8 +392,10 @@ header .navbar {
     color: white;
 }
 
-.footer-section .copyright-text, .policy-text,.follow-text {
-    font-size: 0.9rem; 
+.footer-section .copyright-text,
+.policy-text,
+.follow-text {
+    font-size: 0.9rem;
     line-height: 1.5;
     text-align: center;
 }
@@ -397,9 +404,9 @@ header .navbar {
 @media screen and (max-width: 1024px) {
     .about-section .about-image-wrapper .about-image {
         margin-top: 15%;
-        width: 80%;         
-        height: auto;       
-        max-width: 400px;   
+        width: 80%;
+        height: auto;
+        max-width: 400px;
         aspect-ratio: 1;
     }
 
@@ -426,6 +433,7 @@ header .navbar {
 }
 
 @media screen and (max-width: 900px) {
+
     /* NAVBAR MENU */
     .menu-open-btn {
         display: block;
@@ -545,6 +553,7 @@ header .navbar {
 }
 
 @media screen and (max-width: 640px) {
+
     /* LOGO */
     .navbar .nav-logo .logo-img {
         height: 30px;
@@ -554,7 +563,7 @@ header .navbar {
     .about-section .about-image-wrapper .about-image {
         width: 80%;
         height: auto;
-        max-width: 250px; 
+        max-width: 250px;
         aspect-ratio: 1;
         margin-top: 40%;
     }
@@ -587,9 +596,7 @@ header .navbar {
     }
 }
 
-@media (hover: hover) and (pointer: fine) {
-
-    /* Restore desktop layout only on real desktop devices */
+@media screen and (min-width: 1024px) {
     .product-section .product-list {
         justify-content: space-between;
     }
