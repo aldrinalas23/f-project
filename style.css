@@ -402,18 +402,26 @@ header .navbar {
 
 /* RESPONSIVE MEDIA */
 @media screen and (max-width: 1024px) {
+    .about-section .section-content {
+        margin: 15% 0;
+    }
+
     .about-section .about-image-wrapper .about-image {
-        margin-top: 15%;
+        align-items: center;
         width: 80%;
         height: auto;
         max-width: 400px;
         aspect-ratio: 1;
     }
 
+    .about-section .section-title {
+        margin: 0 0 15%;
+    }
+
     .about-section .about-details .text {
-        margin: 30px 0 50px;
-        line-height: 1.6;    
-        text-align: justify;  
+        margin: 0 0 50px;
+        line-height: 1.6;
+        text-align: justify;
     }
 
     /* PRODUCT SECTION */
@@ -439,6 +447,7 @@ header .navbar {
 }
 
 @media screen and (max-width: 900px) {
+
     /* NAVBAR MENU */
     .menu-open-btn {
         display: block;
@@ -475,7 +484,7 @@ header .navbar {
         padding-top: 100px;
         transition: left 0.2s ease;
     }
-    
+
     .navbar .nav-menu .nav-link {
         color: #252525;
         font-size: 1.3rem;
@@ -551,10 +560,6 @@ header .navbar {
     }
 
     /* CONTACT SECTION */
-    .contact-section {
-        min-height: auto;
-    }
-    
     .contact-section .section-content {
         flex-direction: column;
         align-items: center;
@@ -562,6 +567,7 @@ header .navbar {
 }
 
 @media screen and (max-width: 640px) {
+
     /* LOGO */
     .navbar .nav-logo .logo-img {
         height: 30px;
@@ -597,10 +603,6 @@ header .navbar {
         max-width: 300px;
     }
 
-    .contact-section {
-        min-height: auto;
-    }
-
     /* FOOTER SECTION */
     .footer-section .section-content {
         flex-direction: column;
@@ -623,12 +625,3 @@ header .navbar {
         flex-direction: row;
     }
 }
-
-@media (max-width: 900px) and (min-aspect-ratio: 1/1) {
-    .home-section,
-    .about-section,
-    .contact-section {
-        min-height: calc(100dvh - 80px) !important;
-    }
-}
-
