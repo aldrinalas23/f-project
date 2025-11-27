@@ -623,3 +623,12 @@ header .navbar {
         flex-direction: row;
     }
 }
+
+@media (max-width: 900px) and (min-aspect-ratio: 1/1) {
+    .home-section,
+    .about-section,
+    .contact-section {
+        min-height: calc(100dvh - 80px) !important;
+    }
+}
+
