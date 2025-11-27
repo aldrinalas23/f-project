@@ -191,8 +191,8 @@ header .navbar {
 }
 
 .about-section .about-details .text {
-    line-height: 30px;
-    margin: 50px 0 30px;
+    line-height: 20px;
+    margin: 40px 0 20px;
     text-align: center;
     font-size: 1.12rem;
 }
@@ -375,6 +375,22 @@ header .navbar {
 .footer-section .policy-text .separator {
     color: white;
     margin: 0 5px;
+}
+
+.footer-section .social-link-list {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footer-section .follow-text {
+    color: white;
+}
+
+.footer-section .copyright-text, .policy-text,.follow-text {
+    font-size: 0.9rem; 
+    line-height: 1.5;
+    text-align: center;
 }
 
 /* RESPONSIVE MEDIA */
@@ -571,5 +587,20 @@ header .navbar {
     }
 }
 
+@media (hover: hover) and (pointer: fine) {
 
+    /* Restore desktop layout only on real desktop devices */
+    .product-section .product-list {
+        justify-content: space-between;
+    }
 
+    .product-section .product-item {
+        width: calc(100% / 3 - 60px);
+    }
+
+    .about-section .section-content,
+    .contact-section .section-content,
+    .footer-section .section-content {
+        flex-direction: row;
+    }
+}
