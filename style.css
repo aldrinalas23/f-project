@@ -198,7 +198,7 @@ header .navbar {
 .about-section .about-details .text {
     line-height: 20px;
     margin: 40px 0 20px;
-    text-align: center;
+    text-align: justify;
     font-size: 1.12rem;
 }
 
@@ -410,6 +410,12 @@ header .navbar {
         aspect-ratio: 1;
     }
 
+    .about-section .about-details .text {
+        margin: 30px 0 50px;
+        line-height: 1.6;    
+        text-align: justify;  
+    }
+
     /* PRODUCT SECTION */
     .product-section .product-search {
         flex-wrap: wrap;
@@ -433,7 +439,6 @@ header .navbar {
 }
 
 @media screen and (max-width: 900px) {
-
     /* NAVBAR MENU */
     .menu-open-btn {
         display: block;
@@ -470,7 +475,7 @@ header .navbar {
         padding-top: 100px;
         transition: left 0.2s ease;
     }
-
+    
     .navbar .nav-menu .nav-link {
         color: #252525;
         font-size: 1.3rem;
@@ -546,6 +551,10 @@ header .navbar {
     }
 
     /* CONTACT SECTION */
+    .contact-section {
+        min-height: auto;
+    }
+    
     .contact-section .section-content {
         flex-direction: column;
         align-items: center;
@@ -553,7 +562,6 @@ header .navbar {
 }
 
 @media screen and (max-width: 640px) {
-
     /* LOGO */
     .navbar .nav-logo .logo-img {
         height: 30px;
@@ -589,6 +597,10 @@ header .navbar {
         max-width: 300px;
     }
 
+    .contact-section {
+        min-height: auto;
+    }
+
     /* FOOTER SECTION */
     .footer-section .section-content {
         flex-direction: column;
@@ -609,13 +621,5 @@ header .navbar {
     .contact-section .section-content,
     .footer-section .section-content {
         flex-direction: row;
-    }
-}
-
-@media screen and (min-width: 1024px) {
-    .about-section,
-    .contact-section {
-        min-height: auto; /* let section shrink to content height */
-        padding: 50px 0; /* optional spacing */
     }
 }
