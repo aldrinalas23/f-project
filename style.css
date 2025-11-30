@@ -163,6 +163,7 @@ header .navbar {
 
 /* ABOUT SECTION */
 .about-section {
+    min-width: 1300px    
     margin: 250px;
     display: flex;
     align-items: center;
@@ -625,6 +626,7 @@ header .navbar {
         flex-direction: row;
     }
 }
+
 
 
 
