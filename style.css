@@ -56,7 +56,7 @@ button {
 /* NAVIGATION STYLE */
 header {
     background: #252525;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 5;
 }
@@ -281,7 +281,7 @@ header .navbar {
 .contact-section {
     min-height: calc(100vh - 80px);
     background: #faf4f5;
-    padding: 50px 0 100px;
+    padding: 80px 0 100px;
 }
 
 .contact-section .section-content {
@@ -402,8 +402,9 @@ header .navbar {
 
 /* RESPONSIVE MEDIA */
 @media screen and (max-width: 1024px) {
+    /* ABOUT SECTION */
     .about-section .section-content {
-        margin: 15% 0;
+        margin: 15% 0 5%;
     }
 
     .about-section .about-image-wrapper .about-image {
@@ -419,7 +420,7 @@ header .navbar {
     }
 
     .about-section .about-details .text {
-        margin: 0 0 50px;
+        margin: 0 0 30px;
         line-height: 1.6;
         text-align: justify;
     }
@@ -537,6 +538,7 @@ header .navbar {
 
     .about-section .about-details {
         max-width: 100%;
+        margin: 0 0 30%;
     }
 
     .about-section .about-image-wrapper .about-image {
@@ -544,6 +546,7 @@ header .navbar {
         height: 50%;
         max-width: 250px;
         aspect-ratio: 1;
+        margin: 50% 0 0;
     }
 
     /* PRODUCT SECTION */
