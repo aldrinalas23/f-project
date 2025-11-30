@@ -56,7 +56,7 @@ button {
 /* NAVIGATION STYLE */
 header {
     background: #252525;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 5;
 }
