@@ -163,7 +163,7 @@ header .navbar {
 
 /* ABOUT SECTION */
 .about-section {
-    margin: 80px
+    margin: 250px
     display: flex;
     align-items: center;
     justify-content: center;
@@ -625,4 +625,5 @@ header .navbar {
         flex-direction: row;
     }
 }
+
 
